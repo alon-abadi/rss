@@ -1,0 +1,20 @@
+.active {
+    box-shadow: 3px 3px 2px #888888;
+    background: linear-gradient(to bottom, #fff, #ccc); /* Standard syntax */    
+    font-weight: bold;
+}
+
+#history .row {
+    border-radius: 5px; 
+    border: 1px solid #999;
+    
+}
+
+.row {
+    padding: 10px;
+    margin: 5px;    
+}
+
+#feed-main {
+    display: inline-block;
+}

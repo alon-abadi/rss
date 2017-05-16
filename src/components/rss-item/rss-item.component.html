@@ -1,0 +1,4 @@
+<div class="rss-item">
+    <a [href]="item.link">{{ item.title }}</a> - <time>{{ item.pubDate | date:'shortDate'}}</time>
+    <p [innerHTML]="item.description"></p>
+</div>
